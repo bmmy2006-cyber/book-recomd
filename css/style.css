@@ -1,0 +1,467 @@
+/* =========================================================
+RESET & GLOBAL
+========================================================= */
+
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Inter', 'Kanit', sans-serif;
+}
+
+body {
+background-color: #0b0f19;
+color: #94a3b8;
+line-height: 1.7;
+}
+
+/* =========================================================
+NAVBAR
+========================================================= */
+
+.custom-navbar {
+background-color: rgba(11, 15, 25, 0.9);
+backdrop-filter: blur(10px);
+border-bottom: 1px solid #1e293b;
+}
+
+.logo {
+color: #f59e0b !important;
+text-decoration: none;
+font-weight: 700;
+font-size: 1.1rem;
+letter-spacing: 1.5px;
+}
+
+.nav-links .nav-link {
+color: #94a3b8 !important;
+font-weight: 400;
+font-size: 0.95rem;
+transition: color 0.2s ease;
+margin-left: 1.5rem;
+}
+
+.nav-links .nav-link:hover {
+color: #f59e0b !important;
+}
+
+/* Bootstrap Navbar Toggle */
+
+.navbar-toggler {
+border-color: #334155;
+}
+
+.navbar-toggler:focus {
+box-shadow: 0 0 0 0.15rem rgba(245, 158, 11, 0.25);
+}
+
+.navbar-toggler-icon {
+filter: invert(1);
+}
+
+/* =========================================================
+SECTION GROUP 1
+========================================================= */
+
+.section-group-1 {
+background:
+radial-gradient(
+circle at top right,
+#1e1b4b 0%,
+#0b0f19 60%
+);
+}
+
+/* =========================================================
+SECTION GROUP 2
+========================================================= */
+
+.section-group-2 {
+background-color: #101726;
+border-top: 1px solid #1e293b;
+border-bottom: 1px solid #1e293b;
+}
+
+/* =========================================================
+HERO
+========================================================= */
+
+.hero {
+padding: 5rem 0;
+}
+
+.hero-text {
+text-align: left;
+}
+
+.tags {
+display: flex;
+gap: 0.5rem;
+margin-bottom: 1.2rem;
+flex-wrap: wrap;
+}
+
+.tag {
+background-color: rgba(245, 158, 11, 0.1);
+color: #f59e0b;
+padding: 0.3rem 0.8rem;
+border-radius: 6px;
+font-size: 0.8rem;
+font-weight: 600;
+letter-spacing: 0.5px;
+border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.hero-text h1 {
+font-size: 3rem;
+color: #f8fafc;
+margin-bottom: 1rem;
+line-height: 1.15;
+font-weight: 700;
+}
+
+.hero-text p {
+color: #94a3b8;
+font-size: 1.05rem;
+margin-bottom: 2rem;
+font-weight: 300;
+}
+
+.hero-text p strong {
+color: #e2e8f0;
+font-weight: 500;
+}
+
+/* =========================================================
+BUTTON
+========================================================= */
+
+.custom-btn {
+display: inline-block;
+background-color: #f59e0b !important;
+color: #0b0f19 !important;
+padding: 0.85rem 2rem;
+border-radius: 8px;
+text-decoration: none;
+font-weight: 600;
+font-size: 0.95rem;
+border: none !important;
+transition: all 0.2s ease;
+box-shadow: 0 4px 14px rgba(245, 158, 11, 0.3);
+}
+
+.custom-btn:hover {
+background-color: #d97706 !important;
+color: #0b0f19 !important;
+transform: translateY(-2px);
+}
+
+/* =========================================================
+BOOK MOCKUP
+========================================================= */
+
+.hero-image-wrapper {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.book-mockup {
+    width: 220px;
+    height: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+
+    text-align: center;
+    padding: 0;
+
+    transition: transform 0.3s ease;
+}
+
+.book-mockup:hover {
+transform: translateY(-5px);
+border-color: #f59e0b;
+}
+
+.book-mockup span {
+color: #f59e0b;
+font-weight: 700;
+font-size: 1.2rem;
+}
+
+.book-mockup small {
+color: #64748b;
+margin-top: 0.5rem;
+letter-spacing: 2px;
+font-size: 0.8rem;
+}
+
+.image-credit {
+display: block;
+font-size: 0.75rem;
+color: #64748b;
+margin-top: 0.6rem;
+font-style: italic;
+}
+.book-mockup img {
+    width: 220px;
+    height: 320px;
+    object-fit: cover;
+    display: block;
+    border-radius: 0;
+}
+
+/* =========================================================
+GENERAL SECTION
+========================================================= */
+
+.section {
+padding: 5rem 0;
+}
+
+.section h2 {
+font-size: 2.2rem;
+color: #f8fafc;
+margin-bottom: 1rem;
+font-weight: 600;
+}
+
+.section-desc {
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+color: #94a3b8;
+font-size: 1.05rem;
+line-height: 1.8;
+}
+
+/* =========================================================
+HIGHLIGHT CARDS
+========================================================= */
+
+.custom-card {
+background-color: #172033 !important;
+padding: 2rem;
+border-radius: 12px;
+border: 1px solid #222e45 !important;
+transition: all 0.2s ease;
+text-align: left;
+}
+
+.custom-card:hover {
+transform: translateY(-4px);
+border-color: #334155 !important;
+}
+
+.custom-card h3 {
+color: #f8fafc;
+margin-bottom: 0.75rem;
+font-size: 1.1rem;
+font-weight: 600;
+}
+
+.custom-card p {
+color: #94a3b8;
+font-size: 0.95rem;
+font-weight: 300;
+margin-bottom: 0;
+}
+
+/* =========================================================
+OTHER BOOKS
+========================================================= */
+
+.book-card {
+background-color: #172033;
+padding: 1.5rem;
+border-radius: 12px;
+border: 1px solid #222e45;
+
+text-align: center;
+
+transition: all 0.2s ease;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+
+.book-card:hover {
+transform: translateY(-4px);
+border-color: #f59e0b;
+}
+
+.mini-mockup {
+    width: 100%;
+    height: 280px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 0.8rem;
+    border: 1px solid #334155;
+}
+
+.mini-mockup img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.book-card h4 {
+color: #f8fafc;
+font-size: 1rem;
+font-weight: 500;
+margin-bottom: 0.2rem;
+}
+
+/* =========================================================
+FOOTER
+========================================================= */
+
+footer {
+background-color: #07090f;
+padding: 3.5rem 0;
+text-align: center;
+border-top: 1px solid #1e293b;
+}
+
+.quote {
+font-style: italic;
+color: #f59e0b;
+font-size: 1rem;
+margin-bottom: 1rem;
+}
+
+footer p:last-child {
+color: #64748b;
+font-size: 0.85rem;
+}
+
+/* =========================================================
+RESPONSIVE
+========================================================= */
+
+@media (max-width: 991.98px) {
+
+.hero {
+    padding: 4rem 0;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.tags {
+    justify-content: center;
+}
+
+.nav-links .nav-link {
+    margin-left: 0;
+    margin-top: 0.5rem;
+}
+
+
+}
+
+@media (max-width: 575.98px) {
+
+.hero-text h1 {
+    font-size: 2.2rem;
+}
+
+.section h2 {
+    font-size: 1.8rem;
+}
+
+.hero {
+    padding: 3rem 0;
+}
+
+.book-mockup {
+    width: 200px;
+    height: 290px;
+}
+
+.section {
+    padding: 4rem 0;
+}
+
+
+}
+/* =========================================================
+   HERO BACKGROUND CAROUSEL
+========================================================= */
+
+.hero {
+    position: relative;
+    overflow: hidden;
+    min-height: 520px;
+}
+
+/* Carousel อยู่ด้านหลัง Hero */
+.hero-carousel {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+/* รูปเต็มพื้นที่ Hero */
+.hero-carousel .carousel-inner,
+.hero-carousel .carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.45;
+}
+
+/* ทำให้ภาพยังกลืนกับพื้นหลังเดิม แต่สว่างขึ้น */
+.hero-carousel::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(11, 15, 25, 0.45),
+            rgba(11, 15, 25, 0.65)
+        );
+
+    z-index: 1;
+}
+
+/* เนื้อหา Hero อยู่ด้านหน้าภาพ */
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+.hero-carousel .carousel-item {
+    transition: opacity 2s ease-in-out !important;
+    transform: none !important;
+}
+#otherBooksCarousel .carousel-control-prev {
+    left: -70px;
+}
+
+#otherBooksCarousel .carousel-control-next {
+    right: -70px;
+}
+
+#otherBooksCarousel .carousel-control-prev,
+#otherBooksCarousel .carousel-control-next {
+    width: 50px;
+}
